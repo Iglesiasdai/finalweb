@@ -1,0 +1,234 @@
+body {
+  background-image: linear-gradient(black, #1b031b);
+  font-family: "poppins";
+  font-weight: normal;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.slide {
+  width: 100%; }
+
+.carousel-item {
+  height: 84vh; }
+
+h3 {
+  color: white;
+  margin: 20px;
+  margin-left: 40px; }
+
+h4 {
+  color: white;
+  margin: 20px;
+  margin-left: 40px; }
+
+hr {
+  border-color: white; }
+
+nav {
+  background-color: black;
+  text-decoration: none;
+  /*#nav a:hover {
+	
+		color:$secondarycolor!important;
+		
+		#active{
+			font-weight: map-get($fontmenu, font-weight);
+			color: map-get($fontmenu ,color);
+		}		
+		
+	  }*/ }
+  nav ul {
+    list-style-type: none;
+    font-family: "poppins";
+    font-weight: bold;
+    color: white;
+    top: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; }
+
+.logo {
+  margin: 20px; }
+
+#lista-temas ol {
+  display: flex;
+  flex-direction: column;
+  text-align: left; }
+
+li {
+  float: left; }
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; }
+
+li a:hover {
+  color: #fff45b !important; }
+
+ta
+.alinear {
+  display: inline;
+  align-content: center;
+  text-align: center; }
+
+.section__shows {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-family: "poppins";
+  padding: 1em; }
+
+.section__galeria {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 5px; }
+
+.grid-music {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  grid-gap: 25px;
+  padding: 80px 200px; }
+
+.bio {
+  font-size: 14px;
+  font-family: 'poppins';
+  font-weight: normal;
+  color: white;
+  margin-left: 40px;
+  margin-right: 40px; }
+
+.table {
+  font-size: 14px;
+  font-family: 'poppins';
+  font-weight: normal;
+  color: white;
+  text-align: center; }
+
+.cd {
+  float: left; }
+
+#top {
+  margin-top: 20px; }
+
+#discografia {
+  padding-left: 300px;
+  padding-right: 0; }
+
+#spotify {
+  padding-left: 0;
+  padding-right: 200; }
+
+.galeria {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 5px; }
+
+.tour {
+  margin-top: 50px;
+  border-bottom: solid white;
+  color: white; }
+
+#fecha {
+  display: grid;
+  grid-template-areas: "bsas suspendido" "madrid junio" "canada octubre";
+  margin: 40px;
+  padding-bottom: 40px; }
+
+footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 50px;
+  color: white;
+  text-align: center;
+  font-family: "poppins";
+  font-weight: medium;
+  font-size: small;
+  padding-top: 10px;
+  background-color: black; }
+
+#formulario {
+  color: white !important;
+  font-family: "poppins" !important;
+  background-color: #4b011d;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 5px;
+  padding-bottom: 50px; }
+
+.formulario {
+  margin-top: 50px !important;
+  padding: 10px !important; }
+
+#bsas {
+  grid-area: bsas; }
+
+#madrid {
+  grid-area: madrid; }
+
+#canada {
+  grid-area: canada; }
+
+#junio {
+  grid-area: junio; }
+
+#suspendid {
+  grid-area: suspendido; }
+
+#octubre {
+  grid-area: octubre; }
+
+#octubre {
+  grid-area: octubre; }
+
+.zoom {
+  padding: 5px;
+  transition: transform .2s;
+  width: 486px;
+  height: auto;
+  margin: 0 auto; }
+
+.zoom:hover {
+  -ms-transform: scale(1.5);
+  /* IE 9 */
+  -webkit-transform: scale(1.5);
+  /* Safari 3-8 */
+  transform: scale(1.5); }
+
+@media screen and (max-width: 800px) {
+  .img-home {
+    height: 81vh; }
+  .carousel-item {
+    height: 81vh; }
+  .w-100 {
+    width: initial !important; }
+  #formulario {
+    padding-left: 40px;
+    padding-right: 40px; }
+  iframe {
+    height: 400px; }
+  .section__galeria {
+    width: 25%;
+    height: auto;
+    display: table;
+    margin: auto; }
+  .zoom:hover {
+    -ms-transform: scale(0);
+    /* IE 9 */
+    -webkit-transform: scale(0);
+    /* Safari 3-8 */
+    transform: none; }
+  .grid-music {
+    width: auto;
+    height: auto;
+    display: table;
+    margin: 5px;
+    padding: 5px; } }
